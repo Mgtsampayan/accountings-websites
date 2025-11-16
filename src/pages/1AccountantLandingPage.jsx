@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback, memo } from "react";
 import { Home, Menu, X } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
 import backgroundImage from "../images/bg_2.png";
 import Lp from "../images/1.mp4";
